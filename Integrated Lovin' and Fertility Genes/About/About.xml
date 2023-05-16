@@ -15,10 +15,12 @@
     <li>
       <packageId>FertilityGenes.Mod</packageId>
       <displayName>Fertility Genes</displayName>
+      <downloadUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2974206359</downloadUrl>
     </li>
     <li>
       <packageId>LibidoGenes.Mod</packageId>
       <displayName>Libido Genes</displayName>
+      <downloadUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2974405875</downloadUrl>
     </li>
   </modDependencies>
 
