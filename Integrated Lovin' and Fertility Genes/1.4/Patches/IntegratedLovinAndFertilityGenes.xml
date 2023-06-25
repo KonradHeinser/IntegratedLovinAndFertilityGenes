@@ -1,63 +1,96 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-    <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/XenotypeDef[defName="Dirtmole"]/genes</xpath>
-        <value>
-            <li MayRequire="FertilityGenes.Mod">AboveAverageFertility</li>
-        </value>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationAdd" MayRequire="FertilityGenes.Mod">
+                <xpath>/Defs/XenotypeDef[defName="Dirtmole"]/genes</xpath>
+                <value>
+                    <li>AboveAverageFertility</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd" MayRequire="FertilityGenes.Mod">
+                <xpath>/Defs/XenotypeDef[defName="Hussar"]/genes</xpath>
+                <value>
+                    <li>AboveAverageFertility</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd" MayRequire="FertilityGenes.Mod">
+                <xpath>/Defs/XenotypeDef[defName="Sanguophage"]/genes</xpath>
+                <value>
+                    <li>ExtremelyLowFertility</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd" MayRequire="FertilityGenes.Mod">
+                <xpath>/Defs/XenotypeDef[defName="Neanderthal"]/genes</xpath>
+                <value>
+                    <li>LowFertility</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd" MayRequire="FertilityGenes.Mod">
+                <xpath>/Defs/XenotypeDef[defName="Waster"]/genes</xpath>
+                <value>
+                    <li>VeryLowFertility</li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd" MayRequire="FertilityGenes.Mod">
+                <xpath>/Defs/XenotypeDef[defName="Yttakin"]/genes</xpath>
+                <value>
+                    <li>LowFertility</li>
+                </value>
+            </li>
+        </operations>
     </Operation>
 
-    <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/XenotypeDef[defName="Genie"]/genes</xpath>
-        <value>
-            <li MayRequire="LibidoGenes.Mod">Libido_VeryLow</li>
-        </value>
-    </Operation>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationAdd" MayRequire="LibidoGenes.Mod">
+                <xpath>/Defs/XenotypeDef[defName="Genie"]/genes</xpath>
+                <value>
+                    <li>Libido_VeryLow</li>
+                </value>
+            </li>
 
-    <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/XenotypeDef[defName="Hussar"]/genes</xpath>
-        <value>
-            <li MayRequire="FertilityGenes.Mod">AboveAverageFertility</li>
-            <li MayRequire="LibidoGenes.Mod">Libido_VeryHigh</li>
-        </value>
-    </Operation>
+            <li Class="PatchOperationAdd" MayRequire="LibidoGenes.Mod">
+                <xpath>/Defs/XenotypeDef[defName="Hussar"]/genes</xpath>
+                <value>
+                    <li MayRequire="LibidoGenes.Mod">Libido_VeryHigh</li>
+                </value>
+            </li>
 
-    <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/XenotypeDef[defName="Sanguophage"]/genes</xpath>
-        <value>
-            <li MayRequire="FertilityGenes.Mod">ExtremelyLowFertility</li>
-            <li MayRequire="LibidoGenes.Mod">Libido_ExtremelyLow</li>
-        </value>
-    </Operation>
+            <li Class="PatchOperationAdd" MayRequire="LibidoGenes.Mod">
+                <xpath>/Defs/XenotypeDef[defName="Sanguophage"]/genes</xpath>
+                <value>
+                    <li MayRequire="LibidoGenes.Mod">Libido_ExtremelyLow</li>
+                </value>
+            </li>
 
-    <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/XenotypeDef[defName="Neanderthal"]/genes</xpath>
-        <value>
-            <li MayRequire="FertilityGenes.Mod">LowFertility</li>
-            <li MayRequire="LibidoGenes.Mod">Libido_SuperHigh</li>
-        </value>
-    </Operation>
+            <li Class="PatchOperationAdd" MayRequire="LibidoGenes.Mod">
+                <xpath>/Defs/XenotypeDef[defName="Neanderthal"]/genes</xpath>
+                <value>
+                    <li MayRequire="LibidoGenes.Mod">Libido_SuperHigh</li>
+                </value>
+            </li>
 
-    <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/XenotypeDef[defName="Impid"]/genes</xpath>
-        <value>
-            <li MayRequire="LibidoGenes.Mod">Libido_AboveAverage</li>
-        </value>
-    </Operation>
+            <li Class="PatchOperationAdd" MayRequire="LibidoGenes.Mod">
+                <xpath>/Defs/XenotypeDef[defName="Impid"]/genes</xpath>
+                <value>
+                    <li MayRequire="LibidoGenes.Mod">Libido_AboveAverage</li>
+                </value>
+            </li>
 
-    <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/XenotypeDef[defName="Waster"]/genes</xpath>
-        <value>
-            <li MayRequire="LibidoGenes.Mod">Libido_AboveAverage</li>
-            <li MayRequire="FertilityGenes.Mod">VeryLowFertility</li>
-        </value>
-    </Operation>
+            <li Class="PatchOperationAdd" MayRequire="LibidoGenes.Mod">
+                <xpath>/Defs/XenotypeDef[defName="Waster"]/genes</xpath>
+                <value>
+                    <li MayRequire="LibidoGenes.Mod">Libido_AboveAverage</li>
+                </value>
+            </li>
 
-    <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/XenotypeDef[defName="Yttakin"]/genes</xpath>
-        <value>
-            <li MayRequire="LibidoGenes.Mod">Libido_AboveAverage</li>
-            <li MayRequire="FertilityGenes.Mod">LowFertility</li>
-        </value>
+            <li Class="PatchOperationAdd" MayRequire="LibidoGenes.Mod">
+                <xpath>/Defs/XenotypeDef[defName="Yttakin"]/genes</xpath>
+                <value>
+                    <li MayRequire="LibidoGenes.Mod">Libido_AboveAverage</li>
+                </value>
+            </li>
+        </operations>
     </Operation>
 </Patch>
