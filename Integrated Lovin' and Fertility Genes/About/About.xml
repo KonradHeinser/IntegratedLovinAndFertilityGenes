@@ -12,31 +12,24 @@
       <packageId>ludeon.rimworld.biotech</packageId>
       <displayName>Biotech</displayName>
     </li>
-    <li>
-      <packageId>FertilityGenes.Mod</packageId>
-      <displayName>Fertility Genes</displayName>
-      <downloadUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2974206359</downloadUrl>
-    </li>
-    <li>
-      <packageId>LibidoGenes.Mod</packageId>
-      <displayName>Libido Genes</displayName>
-      <downloadUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2974405875</downloadUrl>
-    </li>
   </modDependencies>
 
   <loadAfter>
     <li>Ludeon.RimWorld.Biotech</li>
     <li>LibidoGenes.Mod</li>
     <li>FertilityGenes.Mod</li>
+    <li>MoreBiotechStyleGenes.Mod</li>
+    <li>MoreBiotechStyleXenotypes.Mod</li>
   </loadAfter>
 
   <description>
 This mod adds my fertility and libido genes to many of the xenotypes that Biotech has by default. My general principle was to make it so xenotypes that were more likely to live longer or less combative overall had lower fertilities and libidos, while xenotypes that have lower life spans, due to either detrimental genetics or just plain excessive beligerence, have increased libido and/or fertility. This aims to provide a little more variety between the normal xenotypes. 
 
-While both mods are implemented, you do not need to have both of them installed. For example, if you only want the fertility genes mod, then this mod will only try to implement the fertility genes mod. If you only have the libido genes mod, then this will only implement libido genes. This does need to load after those mods.
+While both mods are implemented, you do not need to have both of them installed. For example, if you only want the fertility genes mod, then this mod will only try to implement the fertility genes mod. If you only have the libido genes mod, then this will only implement libido genes. This does need to load after those mods. If you have [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2985153870]More Biotech Style Genes - All in One[/url], then this mod will apply both sets.
 
-Fertility Genes: https://steamcommunity.com/sharedfiles/filedetails/?id=2974206359
-Libido Genes: https://steamcommunity.com/sharedfiles/filedetails/?id=2974405875
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2974206359]Fertility Genes[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2974405875]Libido Genes[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2985153870]More Biotech Style Genes - All In One[/url]
 
 [url=https://steamcommunity.com/id/alite/myworkshopfiles/?appid=294100]Easy link to all of my Rimworld mods[/url]
 [url=https://github.com/KonradHeinser/IntegratedLovinAndFertilityGenes][img]https://i.imgur.com/kTkpTOE.png[/img][/url]
