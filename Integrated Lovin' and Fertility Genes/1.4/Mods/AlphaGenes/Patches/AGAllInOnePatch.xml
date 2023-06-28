@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationAdd" MayRequire="MoreBiotechStyleGenes.Mod">
+                <xpath>/Defs/XenotypeDef[defName="AG_Fleetkind"]/genes</xpath>
+                <value>
+                    <li>Libido_ExtremelyLow</li>
+                </value>
+            </li>
+
+            <li Class="PatchOperationAdd" MayRequire="MoreBiotechStyleGenes.Mod">
+                <xpath>/Defs/XenotypeDef[defName="AG_Animusen"]/genes</xpath>
+                <value>
+                    <li>AboveAverageFertility</li>
+                </value>
+            </li>
+
+            <li Class="PatchOperationAdd" MayRequire="MoreBiotechStyleGenes.Mod">
+                <xpath>/Defs/XenotypeDef[defName="AG_Lapis"]/genes</xpath>
+                <value>
+                    <li>Libido_VeryLow</li>
+                    <li>AboveAverageFertility</li>
+                </value>
+            </li>
+
+            <li Class="PatchOperationAdd" MayRequire="MoreBiotechStyleGenes.Mod">
+                <xpath>/Defs/XenotypeDef[defName="AG_Wretch"]/genes</xpath>
+                <value>
+                    <li>Libido_ExtremelyLow</li>
+                </value>
+            </li>
+
+            <li Class="PatchOperationAdd" MayRequire="MoreBiotechStyleGenes.Mod">
+                <xpath>/Defs/XenotypeDef[defName="AG_Taukai"]/genes</xpath>
+                <value>
+                    <li>VeryLowFertility</li>
+                    <li>Libido_VeryLow</li>
+                </value>
+            </li>
+
+            <li Class="PatchOperationAdd" MayRequire="MoreBiotechStyleGenes.Mod">
+                <xpath>/Defs/XenotypeDef[defName="AG_Hiveling"]/genes</xpath>
+                <value>
+                    <li>Libido_ExtremelyLow</li>
+                </value>
+            </li>
+
+            <li Class="PatchOperationAdd" MayRequire="MoreBiotechStyleGenes.Mod">
+                <xpath>/Defs/XenotypeDef[defName="AG_MindDevourer"]/genes</xpath>
+                <value>
+                    <li>Libido_ExtremelyLow</li>
+                    <li>VeryLowFertility</li>
+                </value>
+            </li>
+
+            <li Class="PatchOperationAdd" MayRequire="MoreBiotechStyleGenes.Mod">
+                <xpath>/Defs/XenotypeDef[defName="AG_Efreet"]/genes</xpath>
+                <value>
+                    <li>Libido_VeryHigh</li>
+                    <li>VeryFertile</li>
+                </value>
+            </li>
+
+            <li Class="PatchOperationFindMod" MayRequire="MoreBiotechStyleGenes.Mod">
+		        <mods>
+			        <li>Vanilla Races Expanded - Sanguophage</li>
+		        </mods>
+                <match Class="PatchOperationSequence">
+		            <operations>
+                        <li Class="PatchOperationAdd" MayRequire="MoreBiotechStyleGenes.Mod">
+                            <xpath>/Defs/XenotypeDef[defName="AG_Malachai"]/genes</xpath>
+                            <value>
+                                <li>Libido_ExtremelyLow</li>
+                                <li>ExtremelyLowFertility</li>
+                            </value>
+                        </li>
+                    </operations>
+                </match>
+            </li>
+
+            <li Class="PatchOperationFindMod" MayRequire="MoreBiotechStyleGenes.Mod">
+		        <mods>
+			        <li>Vanilla Races Expanded - Phytokin</li>
+		        </mods>
+                <match Class="PatchOperationSequence">
+		            <operations>
+                        <li Class="PatchOperationAdd" MayRequire="MoreBiotechStyleGenes.Mod">
+                            <xpath>/Defs/XenotypeDef[defName="VRE_Ocularkin"]/genes</xpath>
+                            <value>
+                                <li>Libido_VeryLow</li>
+                                <li>AboveAverageFertility</li>
+                            </value>
+                        </li>
+                    </operations>
+                </match>
+            </li>
+        </operations>
+    </Operation>
+</Patch>
