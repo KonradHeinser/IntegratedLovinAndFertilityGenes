@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationAdd" MayRequire="MoreBiotechStyleGenes.Mod">
+                <xpath>/Defs/XenotypeDef[defName="VRESaurids_Saurid"]/genes</xpath>
+                <value>
+                    <li>Libido_AboveAverage</li>
+                    <li>AboveAverageFertility</li>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

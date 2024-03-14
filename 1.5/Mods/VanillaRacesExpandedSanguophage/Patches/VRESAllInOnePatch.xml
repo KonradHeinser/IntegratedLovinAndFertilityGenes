@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationAdd" MayRequire="MoreBiotechStyleGenes.Mod">
+                <xpath>/Defs/XenotypeDef[defName="VRE_Strigoi"]/genes</xpath>
+                <value>
+                    <li>Libido_ExtremelyLow</li>
+                    <li>ExtremelyLowFertility</li>
+                </value>
+            </li>
+
+            <li Class="PatchOperationAdd" MayRequire="MoreBiotechStyleGenes.Mod">
+                <xpath>/Defs/XenotypeDef[defName="VRE_Ekkimian"]/genes</xpath>
+                <value>
+                    <li>Libido_ExtremelyLow</li>
+                    <li>ExtremelyLowFertility</li>
+                </value>
+            </li>
+
+            <li Class="PatchOperationAdd" MayRequire="MoreBiotechStyleGenes.Mod">
+                <xpath>/Defs/XenotypeDef[defName="VRE_Bruxa"]/genes</xpath>
+                <value>
+                    <li>ExtremelyLowFertility</li>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

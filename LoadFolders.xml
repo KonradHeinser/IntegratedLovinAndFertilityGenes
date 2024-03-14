@@ -11,4 +11,16 @@
 		<li IfModActive="vanillaracesexpanded.hussar">1.4/Mods/VanillaRacesExpandedHussar</li>
 		<li IfModActive="vanillaracesexpanded.saurid">1.4/Mods/VanillaRacesExpandedSaurid</li>
 	</v1.4>
+	<v1.5>
+		<li>/</li>
+		<li>1.5</li>
+        <li IfModActive="MoreBiotechStyleXenotypes.Mod">1.5/Mods/MoreBiotechStyleXenotypes</li>
+        <li IfModActive="sarg.alphagenes">1.5/Mods/AlphaGenes</li>
+		<li IfModActive="vanillaracesexpanded.phytokin">1.5/Mods/VanillaRacesExpandedPhytokin</li>	
+		<li IfModActive="vanillaracesexpanded.phytokin_copy">1.5/Mods/VanillaRacesExpandedPhytokin</li>
+		<li IfModActive="vanillaracesexpanded.sanguophage">1.5/Mods/VanillaRacesExpandedSanguophage</li>	
+		<li IfModActive="vanillaracesexpanded.sanguophage_copy">1.5/Mods/VanillaRacesExpandedSanguophage</li>
+		<li IfModActive="vanillaracesexpanded.hussar">1.5/Mods/VanillaRacesExpandedHussar</li>
+		<li IfModActive="vanillaracesexpanded.saurid">1.5/Mods/VanillaRacesExpandedSaurid</li>
+	</v1.5>
 </loadFolders>

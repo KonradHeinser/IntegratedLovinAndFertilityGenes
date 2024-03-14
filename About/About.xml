@@ -5,6 +5,7 @@
   <packageId>IntegratedLovinAndFertilityGenes.Mod</packageId>
   <supportedVersions>
     <li>1.4</li>
+    <li>1.5</li>
   </supportedVersions>
   
   <modDependencies>
@@ -36,4 +37,3 @@ While both mods are implemented, you do not need to have both of them installed.
 [url=https://ko-fi.com/alite56114][img]https://i.imgur.com/Utx6OIH.png[/img][/url]
   </description>
 </ModMetaData>
-

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationAdd" MayRequire="FertilityGenes.Mod">
+                <xpath>/Defs/XenotypeDef[defName="VRE_Poluxkin"]/genes</xpath>
+                <value>
+                    <li>AboveAverageFertility</li>
+                </value>
+            </li>
+
+            <li Class="PatchOperationFindMod" MayRequire="FertilityGenes.Mod">
+		        <mods>
+			        <li>Royalty</li>
+		        </mods>
+                <match Class="PatchOperationSequence">
+		            <operations>
+                        <li Class="PatchOperationAdd" MayRequire="FertilityGenes.Mod">
+                            <xpath>/Defs/XenotypeDef[defName="VRE_Animakin"]/genes</xpath>
+                            <value>
+                                <li>AboveAverageFertility</li>
+                            </value>
+                        </li>
+                    </operations>
+                </match>
+            </li>
+
+            <li Class="PatchOperationFindMod" MayRequire="FertilityGenes.Mod">
+		        <mods>
+			        <li>Ideology</li>
+		        </mods>
+                <match Class="PatchOperationSequence">
+		            <operations>
+                        <li Class="PatchOperationAdd" MayRequire="FertilityGenes.Mod">
+                            <xpath>/Defs/XenotypeDef[defName="VRE_Gauranlenkin"]/genes</xpath>
+                            <value>
+                                <li>AboveAverageFertility</li>
+                            </value>
+                        </li>
+                    </operations>
+                </match>
+            </li>
+        </operations>
+    </Operation>
+</Patch>
