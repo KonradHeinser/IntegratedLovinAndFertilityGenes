@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationAdd" MayRequire="MoreBiotechStyleGenes.Mod">
+                <xpath>/Defs/XenotypeDef[defName="Dirtmole"]/genes</xpath>
+                <value>
+                    <li>AboveAverageFertility</li>
+                </value>
+            </li>
+
+            <li Class="PatchOperationAdd" MayRequire="MoreBiotechStyleGenes.Mod">
+                <xpath>/Defs/XenotypeDef[defName="Genie"]/genes</xpath>
+                <value>
+                    <li>Libido_VeryLow</li>
+                </value>
+            </li>
+
+            <li Class="PatchOperationAdd" MayRequire="MoreBiotechStyleGenes.Mod">
+                <xpath>/Defs/XenotypeDef[defName="Hussar"]/genes</xpath>
+                <value>
+                    <li>LowFertility</li>
+                    <li>Libido_VeryHigh</li>
+                </value>
+            </li>
+
+            <li Class="PatchOperationAdd" MayRequire="MoreBiotechStyleGenes.Mod">
+                <xpath>/Defs/XenotypeDef[defName="Sanguophage"]/genes</xpath>
+                <value>
+                    <li>ExtremelyLowFertility</li>
+                    <li>Libido_ExtremelyLow</li>
+                </value>
+            </li>
+
+            <li Class="PatchOperationAdd" MayRequire="MoreBiotechStyleGenes.Mod">
+                <xpath>/Defs/XenotypeDef[defName="Neanderthal"]/genes</xpath>
+                <value>
+                    <li>LowFertility</li>
+                    <li>Libido_SuperHigh</li>
+                </value>
+            </li>
+
+            <li Class="PatchOperationAdd" MayRequire="MoreBiotechStyleGenes.Mod">
+                <xpath>/Defs/XenotypeDef[defName="Impid"]/genes</xpath>
+                <value>
+                    <li>Libido_AboveAverage</li>
+                </value>
+            </li>
+
+            <li Class="PatchOperationAdd" MayRequire="MoreBiotechStyleGenes.Mod">
+                <xpath>/Defs/XenotypeDef[defName="Waster"]/genes</xpath>
+                <value>
+                    <li>Libido_AboveAverage</li>
+                    <li>VeryLowFertility</li>
+                </value>
+            </li>
+
+            <li Class="PatchOperationAdd" MayRequire="MoreBiotechStyleGenes.Mod">
+                <xpath>/Defs/XenotypeDef[defName="Yttakin"]/genes</xpath>
+                <value>
+                    <li>Libido_AboveAverage</li>
+                    <li>LowFertility</li>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

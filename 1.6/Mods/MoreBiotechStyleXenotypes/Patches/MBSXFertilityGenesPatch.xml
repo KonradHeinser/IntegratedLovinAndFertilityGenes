@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationAdd" MayRequire="FertilityGenes.Mod">
+                <xpath>/Defs/XenotypeDef[defName="MBSXT_Reaver"]/genes</xpath>
+                <value>
+                    <li>VeryLowFertility</li>
+                </value>
+            </li>
+
+            <li Class="PatchOperationAdd" MayRequire="FertilityGenes.Mod">
+                <xpath>/Defs/XenotypeDef[defName="MBSXT_Harmonite"]/genes</xpath>
+                <value>
+                    <li>ExtremelyLowFertility</li>
+                </value>
+            </li>
+
+            <li Class="PatchOperationAdd" MayRequire="FertilityGenes.Mod">
+                <xpath>/Defs/XenotypeDef[defName="MBSXT_Oni"]/genes</xpath>
+                <value>
+                    <li>LowFertility</li>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>
