@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationAdd" MayRequire="LibidoGenes.Mod">
+                <xpath>/Defs/XenotypeDef[defName="VREH_Uhlan"]/genes</xpath>
+                <value>
+                    <li>Libido_VeryHigh</li>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

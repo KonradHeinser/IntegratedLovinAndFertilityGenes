@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationAdd" MayRequire="MoreBiotechStyleGenes.Mod">
+                <xpath>/Defs/XenotypeDef[defName="VREH_Uhlan"]/genes</xpath>
+                <value>
+                    <li>LowFertility</li>
+                    <li>Libido_VeryHigh</li>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>
